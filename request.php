@@ -14,6 +14,7 @@ $definition = [
 print "<h3>" . strtoupper($query) . "</h3>";
 print "<p>" . $definition[$query] . "</p>";
 
+//query
 if ($query == 'true') {
 		
 		$all ='<?xml version="1.0" encoding="UTF-8"?>
